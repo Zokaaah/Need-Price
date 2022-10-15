@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    background-color:#0c0e1c;
+    color: white;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 3%;
+}
+
+.rodape h3{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.icons{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+}

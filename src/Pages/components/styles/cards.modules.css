@@ -1,13 +1,16 @@
 body{
     background-color: #1b1e36;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-image: url("./../../../images/banner.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
     height: 500px;
+    
     
 }
 
@@ -64,6 +67,17 @@ header h1{
       width: 100%;
     }
 
+    header{
+        background-image: url("./../../../images/banner.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        margin:0;
+        padding: 0;
+        
+        
+    }
+
     .container_cards{
         display: flex;
         flex-direction: column;
@@ -90,6 +104,7 @@ header h1{
                   0 16px 16px rgba(0,0,0,0.12);
         
     }
+
   }
 
   @media (min-width: 1920px) and (max-width: 2560px)  {

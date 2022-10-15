@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from './../components/styles/cards.modules.css'
+import Footer from "../components/Footer";
 import api from "../../http/api";
 function Home() {
     const [prices, setPrices] = useState([])
@@ -53,16 +54,14 @@ function Home() {
     <td className="Low">{"R$ "}{item2.low}</td>
   </tr>
   
-        
-
-
-     
-
-     
+      
              )
     )}
         </table>
     </div>
+
+    <Footer/>
+
 
     
 
