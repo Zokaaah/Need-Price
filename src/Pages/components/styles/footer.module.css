@@ -24,4 +24,31 @@
     height: 30px;
     width: auto;
     margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.icontitle{
+    font-weight: bold;
+}
+
+.icontitle2{
+    color: #9012d4;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        background-color:#0c0e1c;
+        color: white;
+        margin-top: 15px;
+
+    }
+
+    
+    
 }

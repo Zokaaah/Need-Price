@@ -7,7 +7,7 @@ import linklogo from '../../images/linkedin.png'
 const Footer = () => {
   return (
     <div className={styles.rodape}>
-        <h3>Need <span>Price</span></h3>
+        <h3 className={styles.icontitle}>NEED <span className={styles.icontitle2}>PRICE</span></h3>
         <h3>Desenvolvido por Gabriel de Oliveira.</h3>
         <div className='icons'>
             <a href="https://github.com/Zokaaah/Need-Price"><img className={styles.icons} src={gitlogo} alt="" /></a>
