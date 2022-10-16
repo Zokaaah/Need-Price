@@ -70,8 +70,7 @@ header h1{
     header{
         background-image: url("./../../../images/banner.png");
         background-repeat:no-repeat;
-        background-size:contain;
-        background-position:center;
+        background-size:100%;
         margin:0;
         padding: 0;
         
